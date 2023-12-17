@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northern Lights</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+    </style>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+            font-family: 'Hedvig Letters Serif', serif;
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        body {
+            background-color: #f0f0f0;
+        }
+
+        nav {
+            background-color: rgba(245, 245, 245, 0.556);
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            height: 60px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav .links a {
+            margin-left: 15px;
+        }
+
+        nav .links a:hover {
+            text-decoration: underline;
+        }
+
+
+        .container {
+            background: url("./assets/bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: calc(100vh - 0px);
+            text-align: center;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .container h1 {
+            color: whitesmoke;
+            font-size: 50px;
+
+        }
+
+        .container p {
+            padding: 10px;
+            margin-left: 70px;
+            margin-right: 70px;
+        }
+
+        .container button {
+            width: 150px;
+            height: 45px;
+            padding: 7px;
+            margin: 30px;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<nav>
+    <a class="logo" href="">Logo</a>
+    <a href="">Home</a>
+    <a href="./destination.html">Destinations</a>
+    <a href="./articles.html">Articles</a>
+    <a href="">About Us</a>
+    <span class="links">
+        <a href="login.html">Login</a>
+        <a href="reg.html">Sign Up</a>
+    </span>
+</nav>
+
+<body>
+    <div class="container">
+        <h1>Dance of the Aurora: Nature's Light Show</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptatum minima accusantium ratione
+            delectus quidem amet veniam commodi corrupti quos consectetur, nobis culpa blanditiis sed ducimus quisquam.
+            Aliquid, assumenda laborum.</p>
+        <a href="readmore.html"><button>READ MORE</button></a>
+    </div>
+</body>
+</html>
